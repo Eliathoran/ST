@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# 2017-09-23:v1
+
+CACHE:
+index.html
+images/IMG_1713.JPG
+css/main.css
+
+# Require the user to be online.
+NETWORK:
+
+*
+
+# offline.html will be served in place of all other .html files
+FALLBACK:
+/index.html /offline.html
